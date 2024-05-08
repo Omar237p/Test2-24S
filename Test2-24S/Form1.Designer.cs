@@ -37,53 +37,61 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(75, 29);
+            textBox1.Location = new Point(86, 39);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(114, 27);
             textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(75, 93);
+            textBox2.Location = new Point(86, 124);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
+            textBox2.Size = new Size(114, 27);
             textBox2.TabIndex = 0;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(75, 161);
+            textBox3.Location = new Point(86, 215);
+            textBox3.Margin = new Padding(3, 4, 3, 4);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
+            textBox3.Size = new Size(114, 27);
             textBox3.TabIndex = 0;
             // 
             // button1
             // 
-            button1.Location = new Point(75, 222);
+            button1.Location = new Point(86, 296);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(100, 23);
+            button1.Size = new Size(114, 31);
             button1.TabIndex = 1;
             button1.Text = "رتب تصاعديا";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(75, 272);
+            button2.Location = new Point(86, 363);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(100, 23);
+            button2.Size = new Size(114, 31);
             button2.TabIndex = 1;
             button2.Text = "رتب تنازليا";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(250, 346);
+            ClientSize = new Size(286, 461);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
